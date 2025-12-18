@@ -105,4 +105,26 @@
   }
 }
 
+/* 차트 영역 호버 확대 효과 */
+.chart-section {
+  transform-origin: center;
+  will-change: transform;
+}
+
+.chart-section:hover {
+  z-index: 10;
+}
+
+/* 차트 영역 간 여백 최소화 */
+.chart-section + .chart-section {
+  margin-top: 0;
+}
+
+/* 모바일에서는 터치 시에도 확대 효과 적용 */
+@media (hover: none) and (pointer: coarse) {
+  .chart-section:active {
+    transform: scale(1.05);
+  }
+}
+
 

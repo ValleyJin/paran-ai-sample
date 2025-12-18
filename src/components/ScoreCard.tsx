@@ -9,9 +9,9 @@ export function ScoreCard() {
         <CardTitle className="text-lg font-semibold">학원 성적</CardTitle>
         <Badge variant="up">▲ +26점</Badge>
       </CardHeader>
-      <CardContent className="space-y-4 sm:space-y-6">
-        <div className="space-y-3 sm:space-y-4">
-          <div className="space-y-1.5 sm:space-y-2">
+      <CardContent className="space-y-0">
+        <div className="space-y-0">
+          <div className="chart-section group space-y-1.5 sm:space-y-2 p-3 sm:p-4 rounded-lg border border-transparent hover:border-border hover:bg-muted/20 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer">
             <div className="flex items-center justify-between">
               <span className="text-sm sm:text-sm font-medium">사전(형성평가 A)</span>
               <span className="text-xl sm:text-xl font-bold">
@@ -24,7 +24,7 @@ export function ScoreCard() {
             </p>
           </div>
 
-          <div className="space-y-1.5 sm:space-y-2">
+          <div className="chart-section group space-y-1.5 sm:space-y-2 p-3 sm:p-4 rounded-lg border border-transparent hover:border-border hover:bg-muted/20 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer">
             <div className="flex items-center justify-between">
               <span className="text-sm sm:text-sm font-medium">사후(재시험 R)</span>
               <span className="text-xl sm:text-xl font-bold">
@@ -38,8 +38,8 @@ export function ScoreCard() {
           </div>
         </div>
 
-        <div className="space-y-3 sm:space-y-4 pt-3 sm:pt-4 border-t">
-          <div className="space-y-3 sm:space-y-4">
+        <div className="space-y-0 pt-4 sm:pt-6 border-t">
+          <div className="chart-section group space-y-3 sm:space-y-4 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer">
             <h4 className="text-sm sm:text-sm font-semibold text-center">오답 원인(사전)</h4>
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 mx-auto">
               <svg viewBox="0 0 100 100" className="w-full h-full transform -rotate-90">

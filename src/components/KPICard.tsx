@@ -41,9 +41,9 @@ export function KPICard({ title, badge, kpis, imageUrl }: KPICardProps) {
         <CardTitle className="text-lg font-semibold">{title}</CardTitle>
         {badge && <Badge variant={badge.variant}>{badge.text}</Badge>}
       </CardHeader>
-      <CardContent className="space-y-3 sm:space-y-4">
+      <CardContent className="space-y-0">
         {kpis.map((kpi, index) => (
-          <div key={index} className="space-y-1.5 sm:space-y-2">
+          <div key={index} className="chart-section group space-y-1.5 sm:space-y-2 p-3 sm:p-4 rounded-lg border border-transparent hover:border-border hover:bg-muted/20 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer">
             <div className="flex items-center justify-between">
               <span className="text-sm sm:text-sm text-muted-foreground">{kpi.label}</span>
               <span className="text-2xl sm:text-2xl font-bold">

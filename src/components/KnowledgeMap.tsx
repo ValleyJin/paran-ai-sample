@@ -9,7 +9,7 @@ export function KnowledgeMap() {
         <Badge variant="outline">시각화</Badge>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="chart-section group grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 transition-all duration-300 ease-in-out hover:scale-[1.02] cursor-pointer">
           <div className="lg:col-span-2">
             <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
               <svg
