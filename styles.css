@@ -215,7 +215,7 @@ body{
     gap: 12px;
   }
   .divider-title{
-    font-size: clamp(14px, 2.2vw, 18px);
+    font-size: clamp(18px, 3vw, 22px);
     padding: 0 6px;
   }
   
@@ -232,6 +232,13 @@ body{
     max-width: 100%;
   }
   
+  .title{
+    font-size: clamp(22px, 4vw, 26px) !important;
+  }
+  .subtitle{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
   .meta{
     width:100%;
     justify-content: flex-start;
@@ -242,6 +249,12 @@ body{
     flex:1 1 auto;
     min-width: 0;
     max-width: 100%;
+  }
+  .pill .k{
+    font-size: clamp(14px, 2.5vw, 16px) !important;
+  }
+  .pill .v{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
   }
   
   .grid-3,.grid-2{grid-template-columns:1fr;}
@@ -256,6 +269,115 @@ body{
   .card-h{
     flex-wrap: wrap;
     gap:8px;
+  }
+  
+  .card h2{
+    font-size: clamp(17px, 3vw, 19px) !important;
+  }
+  
+  .tag{
+    font-size: clamp(13px, 2.2vw, 14px) !important;
+  }
+  
+  .kpi-label{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .kpi-score{
+    font-size: clamp(26px, 4.5vw, 30px) !important;
+  }
+  .kpi-score span{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .kpi-note{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  
+  .compare-top .label{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .compare-top .value{
+    font-size: clamp(24px, 4vw, 28px) !important;
+  }
+  .compare-top .value span{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .mini{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  
+  .pie-title{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .legend{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  
+  .note-title{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .note{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
+  .panel h3{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .panel ul{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .quote{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
+  thead th{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  tbody td{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .small{
+    font-size: clamp(14px, 2.5vw, 15px) !important;
+  }
+  
+  .bc-title{
+    font-size: clamp(17px, 3vw, 19px) !important;
+  }
+  .bullet-card ol, .bullet-card ul{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .callout{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
+  .lb-title{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .lb-item{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
+  .ins-title{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .insight p{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .micro{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  
+  .bc-ttl{
+    font-size: clamp(16px, 3vw, 18px) !important;
+  }
+  .bc-sub{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  
+  .chart-title{
+    font-size: clamp(15px, 2.8vw, 17px) !important;
+  }
+  .legend-label{
+    font-size: clamp(14px, 2.5vw, 15px) !important;
   }
 }
 
@@ -789,6 +911,9 @@ tbody tr:hover td{background: rgba(255,255,255,.03);}
 }
 
 /* Knowledge map */
+section:has(.km){
+  margin-top: clamp(12px, 1.8vw, 14px);
+}
 .km{
   display:grid;
   grid-template-columns: 1.1fr .9fr;
