@@ -14,12 +14,12 @@ export function ScoreCard() {
           <div className="space-y-1.5 sm:space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-sm sm:text-sm font-medium">사전(형성평가 A)</span>
-              <span className="text-lg sm:text-xl font-bold">
+              <span className="text-xl sm:text-xl font-bold">
                 58<span className="text-sm sm:text-sm text-muted-foreground font-normal">/100</span>
               </span>
             </div>
             <Progress value={58} className="h-1.5 sm:h-2" />
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm sm:text-sm text-muted-foreground leading-relaxed">
               오답 10문항 중 6문항에서 '중간 멈춤' 발생
             </p>
           </div>
@@ -27,12 +27,12 @@ export function ScoreCard() {
           <div className="space-y-1.5 sm:space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-sm sm:text-sm font-medium">사후(재시험 R)</span>
-              <span className="text-lg sm:text-xl font-bold">
+              <span className="text-xl sm:text-xl font-bold">
                 84<span className="text-sm sm:text-sm text-muted-foreground font-normal">/100</span>
               </span>
             </div>
             <Progress value={84} className="h-1.5 sm:h-2" />
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm sm:text-sm text-muted-foreground leading-relaxed">
               기존 오답 유형의 <b>90%</b>를 설명 가능한 수준으로 회복
             </p>
           </div>

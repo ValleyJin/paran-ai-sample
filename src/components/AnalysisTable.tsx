@@ -62,7 +62,7 @@ export function AnalysisTable() {
             </tbody>
           </table>
         </div>
-        <p className="text-sm text-muted-foreground mt-3 sm:mt-4 px-1">
+        <p className="text-xs text-muted-foreground mt-3 sm:mt-4 px-1">
           ※ A: 고1 형성평가 / B: 중학교 보강 문제지(난이도별 AI 엄선)
         </p>
       </CardContent>

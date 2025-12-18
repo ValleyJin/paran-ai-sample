@@ -12,7 +12,7 @@ export function LearningDesign() {
         <div className="border rounded-lg p-3 sm:p-4 space-y-2 sm:space-y-3">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
             <h4 className="text-sm sm:text-base font-semibold">이번 주 학습 흐름</h4>
-            <Badge variant="outline" className="text-sm">진단 → 보강 → 재시험</Badge>
+            <Badge variant="outline" className="text-xs">진단 → 보강 → 재시험</Badge>
           </div>
           <ol className="space-y-1.5 sm:space-y-2 text-sm sm:text-sm list-decimal list-inside leading-relaxed">
             <li>
@@ -33,7 +33,7 @@ export function LearningDesign() {
         <div className="border rounded-lg p-3 sm:p-4 space-y-2 sm:space-y-3">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
             <h4 className="text-sm sm:text-base font-semibold">활용 교재</h4>
-            <Badge variant="outline" className="text-sm">교재 + AI</Badge>
+            <Badge variant="outline" className="text-xs">교재 + AI</Badge>
           </div>
           <ul className="space-y-1.5 sm:space-y-2 text-sm sm:text-sm list-disc list-inside leading-relaxed">
             <li>
