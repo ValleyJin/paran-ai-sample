@@ -10,7 +10,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/gongbubang/',
+  base: '/paran-ai/',
   build: {
     outDir: 'dist',
   },

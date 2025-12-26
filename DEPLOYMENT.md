@@ -48,6 +48,6 @@ npm run build
 
 ## 주의사항
 
-- GitHub Pages의 base path는 `/gongbubang/`로 설정되어 있습니다
+- GitHub Pages의 base path는 `/paran-ai/`로 설정되어 있습니다
 - 저장소 이름이 다르면 `vite.config.ts`의 `base` 값을 수정하세요
 

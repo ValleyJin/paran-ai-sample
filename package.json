@@ -1,12 +1,12 @@
 {
-  "name": "gongbubang-website",
+  "name": "paran-ai",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "bash -c 'unset npm_config_prefix && source ~/.nvm/nvm.sh && nvm use 24 && vite'",
+    "build": "bash -c 'unset npm_config_prefix && source ~/.nvm/nvm.sh && nvm use 24 && tsc && vite build'",
+    "preview": "bash -c 'unset npm_config_prefix && source ~/.nvm/nvm.sh && nvm use 24 && vite preview'"
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.0.3",
@@ -29,4 +29,3 @@
     "vite": "^5.0.8"
   }
 }
-

@@ -33,7 +33,7 @@ git push origin main
 
 #### 5. 배포 확인
 - 워크플로우가 성공적으로 완료되면 `gh-pages` 브랜치가 자동 생성됩니다
-- 몇 분 후 https://valleyjin.github.io/gongbubang/ 에서 확인
+- 몇 분 후 https://valleyjin.github.io/paran-ai/ 에서 확인
 
 ### 문제 해결
 
@@ -49,6 +49,6 @@ git push origin main
   - 빌드 스크립트 오류
 
 #### 배포는 되지만 페이지가 비어있는 경우
-- `vite.config.ts`의 `base` 설정이 `/gongbubang/`로 되어 있는지 확인
+- `vite.config.ts`의 `base` 설정이 `/paran-ai/`로 되어 있는지 확인
 - 브라우저 개발자 도구 콘솔에서 에러 확인
 
